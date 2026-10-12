@@ -3,14 +3,21 @@
   "version": "1.0.0",
   "main": "index.ts",
   "dependencies": {
-    "expo": "~57.0.27",
+    "expo": "^44.0.6",
     "expo-status-bar": "~57.0.1",
     "react": "19.2.3",
-    "react-native": "0.86.3"
+    "react-dom": "19.2.3",
+    "react-native": "^0.72.17",
+    "react-native-web": "^0.21.2",
+    "react-native-screens": "~3.10.1",
+    "react-native-safe-area-context": "3.3.2",
+    "typescript": "~4.3.5",
+    "@types/react": "~17.0.21"
   },
   "devDependencies": {
     "@types/react": "~19.2.2",
-    "typescript": "~6.0.3"
+    "typescript": "~6.0.3",
+    "@types/react-native": "~0.64.12"
   },
   "scripts": {
     "start": "expo start",
